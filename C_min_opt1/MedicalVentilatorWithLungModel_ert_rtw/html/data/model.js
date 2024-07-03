@@ -1,0 +1,1 @@
+var modelInfo = {model:"MedicalVentilatorWithLungModel"};var modelHierarchy=[{model:"MedicalVentilatorWithLungModel",relativePath:"_internal.html",parent:"null"},];var AddCode = true;
