@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2024a http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229 http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="48761bb1-d29a-4cde-899e-5e0613f4b505">
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="be9b4af8-54ec-4d98-ac6f-a77e16bded3c">
+      <ModelName>MedicalVentilator</ModelName>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="d58a5c17-7dc3-45e8-9989-68f28d4f8770">
+      <modelName>MedicalVentilator</modelName>
+      <modelPath>MedicalVentilator</modelPath>
+    </childModelRefInfo>
+    <compiledTFinal>30.0</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="a681f895-f420-4996-803a-da5284fcb8a0">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="671ce8e1-ac08-4efd-b6c4-90f051460352">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>MedicalVentilator</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fastestNoncontSigFeedingDerivPorts>1.0</fastestNoncontSigFeedingDerivPorts>
+    <forceAutoToImplicitSolver>2</forceAutoToImplicitSolver>
+    <globalVariables>D_trachea</globalVariables>
+    <globalVariables>D_tube</globalVariables>
+    <globalVariables>E_respiratory</globalVariables>
+    <globalVariables>FRC</globalVariables>
+    <globalVariables>L_to_m3</globalVariables>
+    <globalVariables>L_trachea</globalVariables>
+    <globalVariables>L_tube</globalVariables>
+    <globalVariables>P_muscle</globalVariables>
+    <globalVariables>RH_room</globalVariables>
+    <globalVariables>R_respiratory</globalVariables>
+    <globalVariables>T_body</globalVariables>
+    <globalVariables>T_humidifier</globalVariables>
+    <globalVariables>T_room</globalVariables>
+    <globalVariables>cmH2O_to_Pa</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasContinuousSampleTime>true</hasContinuousSampleTime>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasNoncontSigFeedingDerivPorts>true</hasNoncontSigFeedingDerivPorts>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <massMatrixIr>0</massMatrixIr>
+    <massMatrixIr>1</massMatrixIr>
+    <massMatrixIr>14</massMatrixIr>
+    <massMatrixIr>15</massMatrixIr>
+    <massMatrixIr>2</massMatrixIr>
+    <massMatrixIr>18</massMatrixIr>
+    <massMatrixIr>3</massMatrixIr>
+    <massMatrixIr>4</massMatrixIr>
+    <massMatrixIr>5</massMatrixIr>
+    <massMatrixIr>5</massMatrixIr>
+    <massMatrixIr>6</massMatrixIr>
+    <massMatrixIr>7</massMatrixIr>
+    <massMatrixIr>8</massMatrixIr>
+    <massMatrixIr>9</massMatrixIr>
+    <massMatrixIr>8</massMatrixIr>
+    <massMatrixIr>10</massMatrixIr>
+    <massMatrixIr>11</massMatrixIr>
+    <massMatrixIr>11</massMatrixIr>
+    <massMatrixIr>12</massMatrixIr>
+    <massMatrixIr>13</massMatrixIr>
+    <massMatrixIr>14</massMatrixIr>
+    <massMatrixIr>16</massMatrixIr>
+    <massMatrixIr>17</massMatrixIr>
+    <massMatrixIr>18</massMatrixIr>
+    <massMatrixIr>19</massMatrixIr>
+    <massMatrixIr>20</massMatrixIr>
+    <massMatrixIr>21</massMatrixIr>
+    <massMatrixIr>21</massMatrixIr>
+    <massMatrixIr>22</massMatrixIr>
+    <massMatrixIr>23</massMatrixIr>
+    <massMatrixIr>24</massMatrixIr>
+    <massMatrixJc>0</massMatrixJc>
+    <massMatrixJc>1</massMatrixJc>
+    <massMatrixJc>2</massMatrixJc>
+    <massMatrixJc>4</massMatrixJc>
+    <massMatrixJc>5</massMatrixJc>
+    <massMatrixJc>6</massMatrixJc>
+    <massMatrixJc>7</massMatrixJc>
+    <massMatrixJc>8</massMatrixJc>
+    <massMatrixJc>9</massMatrixJc>
+    <massMatrixJc>11</massMatrixJc>
+    <massMatrixJc>12</massMatrixJc>
+    <massMatrixJc>14</massMatrixJc>
+    <massMatrixJc>15</massMatrixJc>
+    <massMatrixJc>16</massMatrixJc>
+    <massMatrixJc>17</massMatrixJc>
+    <massMatrixJc>19</massMatrixJc>
+    <massMatrixJc>20</massMatrixJc>
+    <massMatrixJc>21</massMatrixJc>
+    <massMatrixJc>22</massMatrixJc>
+    <massMatrixJc>23</massMatrixJc>
+    <massMatrixJc>25</massMatrixJc>
+    <massMatrixJc>26</massMatrixJc>
+    <massMatrixJc>27</massMatrixJc>
+    <massMatrixJc>29</massMatrixJc>
+    <massMatrixJc>30</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixNzMax>31</massMatrixNzMax>
+    <massMatrixType>3</massMatrixType>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <needsAbsoluteTime>true</needsAbsoluteTime>
+    <numCStateRecs>192</numCStateRecs>
+    <numContinuousStates>192</numContinuousStates>
+    <numDStateRecs>4</numDStateRecs>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableCStateRecs>192</numLoggableCStateRecs>
+    <numLoggableDStateRecs>4</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>18</numLoggableJacobianDStates>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <period>0.0</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>Cont</nonFcnCallPartitionName>
+      <period>1.0</period>
+      <priority>40</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>335</solverStatusFlags>
+    <solverUpdateJacobianAtReset>true</solverUpdateJacobianAtReset>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;3220d062-d2a0-4768-9fa2-783e1b97ec98&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;MedicalVentilator&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;77a6c234-66dc-4280-91cd-15d3a1e5c5a8&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;0c1fa350-4032-4057-831b-3c79d158c807&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;1.0&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a65e4b3f-d85e-4583-b36f-38039c075511&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;1.0&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;MedicalVentilator::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;fbbbfc29-7095-405f-ae40-b04fd48cdb56&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;MedicalVentilator::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;22d976eb-035f-4f4f-8cca-5a429f636254&quot;/&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a65e4b3f-d85e-4583-b36f-38039c075511&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;MedicalVentilator::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;39402fa8-dd74-44a2-a651-b415a5dd66bc&quot;&gt;
+            &lt;period&gt;1.0&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ContinuousRate&quot; uuid=&quot;3a7a0291-5454-4321-aa57-04fc0e19bc6b&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;MedicalVentilator::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;94955e06-a68f-4bd1-922c-2fc6e8313502&quot;/&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;19050aea-cc21-42a8-995d-575d17eeb267&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;5fd61a1c-50a7-404f-b817-7ee38448f552&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d2b50207-c267-4123-977a-61c8c43cb81d&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;bf1ecf4f-1f6c-4832-a82e-ca12d8fd9032&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;02080000-6756-4ef1-8b86-58611dbfa9ea&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;08c315bf-c33e-4cae-a730-b8495a8f3e89&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4b785482-a7e2-4df3-9e9a-04e9da7d2699&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;MedicalVentilator::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;23bf9530-7484-4d12-a8c8-a98b361465c5&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;a94c9770-05a7-4dc0-9496-250b6e3cc4f5&quot;&gt;
+          &lt;annotation&gt;Cont&lt;/annotation&gt;
+          &lt;clockId&gt;MedicalVentilator::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Continuous&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;af83e00e-0438-4283-aeda-a78b8d64423c&quot;/&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;8021322c-ab4f-49bf-a20b-38223f9224ac&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;MedicalVentilator::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;9155ab7b-dc5f-4f0e-81f0-2556f2544d8a&quot;&gt;
+            &lt;period&gt;1.0&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;MedicalVentilator::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;MedicalVentilator::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;963d7eff-bcaf-456f-8618-9979186a2306&quot;&gt;
+        &lt;clockIdentifier&gt;MedicalVentilator::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;1361a640-688a-4f93-ae47-62869006d4c8&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="2b64178c-a257-4e7a-af1f-090c247dfa78"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="cd55c15b-ecd2-4c54-bc46-e0d891eb1947"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="df97223d-ea58-4475-9012-b90d419401d3"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="1d54d35d-f20a-4cb3-9e53-8d6d12fc0c54">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>1.0</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>ode14x</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <useDivForNetSlopComp>2</useDivForNetSlopComp>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="eb3eff13-da05-4d71-89cb-7f049917c82a">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="c88f1bea-eb10-4043-8ff0-995a8504491a"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="8c469c57-28c0-425f-8bb8-879dfe3f0834"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="90da9015-b542-4ea7-af4a-23de49876e61"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="25edbda6-8e2e-4de4-83d1-d45992e8beda"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="290c0cdc-e220-490c-8071-8251a85c0461"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="8ed86f6f-c7c5-4ea7-a064-5178db09d7dc"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="0c02123d-2387-4703-ab4e-004217e51ec9">
+      <hasDerivMethod>true</hasDerivMethod>
+      <hasForcingFunctionMethod>true</hasForcingFunctionMethod>
+      <hasMassMatrixMethod>true</hasMassMatrixMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="33cd7c46-b477-4220-9a35-9ff63146566f"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="23da10df-cb85-4222-8bea-52f0270393a8">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="2e4130fb-4ebb-4250-a650-531a51d01a88"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="486600f9-fcb2-4b17-bec7-9a094aef4fb2"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="65edf106-b8f6-4eb1-b097-4a0548af07d4"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="9473a535-c6ba-456f-9dcf-8799cf19b9c5"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="031e0fe3-6fb1-460a-ae72-f64e01d9f2a1"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="df0ec973-57e6-4ee6-8dd9-34e873b31664">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="b77d4c3b-0bcb-4e01-9089-0d6f150450eb">
+        <p_Name>MedicalVentilator</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="2bf64eb6-0c77-466c-a21a-5c73a9fc6656">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="05fa2d5e-a113-448e-b938-80f8f9224e8b">
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="a4f69cb5-c22c-4a0c-89d0-97fe9b3625a5"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="249d161d-9b91-4391-b7ba-396bfba4fb37">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="b39ed8d4-80b5-42ed-ab2f-381cf1ff4b37"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="c13d9ef3-f6fb-42ca-b4cd-4a17919312eb">
+        <context type="sltp.mm.core.Context" uuid="05fa2d5e-a113-448e-b938-80f8f9224e8b"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="ce1ad09c-b528-4487-ad68-5ccac89e9095">
+          <tasks type="sltp.mm.core.Task" uuid="17971934-65b5-4d85-b4a2-5d500301b602">
+            <baseTask>true</baseTask>
+            <context type="sltp.mm.core.Context" uuid="05fa2d5e-a113-448e-b938-80f8f9224e8b"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <isTimed>true</isTimed>
+            <name>Cont</name>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="8b90f900-00fd-4d39-ac25-0231afec119d">
+              <annotation>Cont</annotation>
+              <color>255</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>Continuous00</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>0.0</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+            <rates type="sltp.mm.core.Rate" uuid="52253a81-a519-4b64-92e0-54dc85d70219">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>1.0</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="90b90f77-ec2c-41ab-9ca3-47bcedab0af2"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="e619fbab-f2fe-4a60-9761-abee5d0ef1c6">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="3c279aac-a616-4c65-8c3b-3529a1a99579">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="4ed23f28-a824-46dc-b78c-c47df24b3631">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e0da8302-830c-4dea-8c0e-9b95752770ef">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="c76aa5e9-27e1-4258-9a72-5d1bd7a3c282"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="c76aa5e9-27e1-4258-9a72-5d1bd7a3c282">
+          <dataName>Cont</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e0da8302-830c-4dea-8c0e-9b95752770ef"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>MedicalVentilator::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="78ad4751-22fe-4efe-a9e1-050b32884eb6"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
